@@ -1,0 +1,4 @@
+Problem : https://leetcode.com/problems/valid-parentheses/
+
+
+Approach: This solution uses a **stack** to validate the brackets based on the **Last-In, First-Out (LIFO)** principle. It pushes all opening brackets (`(`, `{`, `[`) onto the stack as it finds them. When it encounters a closing bracket, it checks if the top of the stack is the corresponding opening bracket; if it is, it pops the opener, and if it isn't (or the stack is empty), the string is invalid.
