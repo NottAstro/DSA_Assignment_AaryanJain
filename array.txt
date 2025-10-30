@@ -1,0 +1,4 @@
+Problem : https://leetcode.com/problems/longest-common-prefix/description/
+
+
+Approach: This solution uses a **vertical scanning** approach. It iterates character by character through the first string (using index `i`) and, for each character, it checks if that same character exists at the same position in all other strings. The moment it finds a mismatch or reaches the end of any string, it returns the prefix found so far (the substring of the first string from the start up to index `i`).
